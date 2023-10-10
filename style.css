@@ -1,0 +1,37 @@
+body {
+    margin:0px;
+    background-image: url('image01.jpeg');
+    background-size: 120vw;
+}
+
+.ask {
+   position: absolute;
+   top: 30px;
+   left:105px;
+   font-family: cursive;
+   font-size: 1.3em;
+   color:aliceblue;
+}
+
+.answer {
+   position: absolute;
+   top: 120px;
+   left: 40%;
+   font-family: cursive;
+   font-size: 1.3em;
+   color: antiquewhite;
+}
+
+.button {
+    position: absolute;
+    top:48%;
+    left:50.5%;
+    /*background-color: transparent;*/
+    background-repeat: no-repeat;
+    /*border: none;*/
+    overflow: hidden;
+    outline: none;
+    cursor:alias;
+    /*color: transparent;*/
+    font-size:0.7em;
+}
